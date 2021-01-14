@@ -6,9 +6,7 @@ final_string = "";
 process.argv.forEach(function (val, index) {
     if (index === 2) { //recupere le premier argument
         ch_arg = val;
-    } else {
-        ch_arg = "Erreur de chargement de l'argument";
-    }
+    } 
 });
 
 for (i = 0; i < ch_arg.length ; i++) {
